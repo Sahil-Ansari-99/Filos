@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bnsAddPost"
+          android:title="Add Post" />
+
+    <item android:id="@+id/bnsMyPosts"
+          android:title="My Posts" />
+
+    <item android:id="@+id/bnsReport"
+          android:title="Report Bug" />
+
+    <item android:id="@+id/bnsLogOut"
+          android:title="Log Out" />
+
+</menu>

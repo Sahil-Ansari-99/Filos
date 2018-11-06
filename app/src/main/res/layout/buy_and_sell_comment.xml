@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/bnsCommentRecyclerView"
+        android:layout_width="344dp"
+        android:layout_height="421dp"
+        android:layout_above="@id/bnsComment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/bnsComment"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bnsCommentHead"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Comment" />
+
+    <TextView
+        android:id="@+id/bnsCommentSeller"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_above="@id/bnsCommentHead"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="-9dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Seller"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bnsCommentHead"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bnsCommentHead"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_above="@id/bnsCommentRecyclerView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:text="Comment and Bid Section" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bnsCommentSend"
+        android:layout_width="52dp"
+        android:layout_height="91dp"
+        android:layout_below="@+id/bnsCommentRecyclerView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:padding="8dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nfPostTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nfPostPubDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nfPostTitle"
+            android:text="27-09-2018"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/nfPostContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nfPostPubDate"
+            android:text="Content"
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <ImageButton
+            android:id="@+id/removeNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/nfPostPostedBy"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:background="#FFFF"
+            android:src="@drawable/ic_newsfeed_remove" />
+
+        <TextView
+            android:id="@+id/nfPostPostedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nfPostContent"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Posted By: "
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/nfPostNewsOwner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/nfPostPostedBy"
+            android:layout_marginLeft="0dp"
+            android:layout_toRightOf="@+id/nfPostPostedBy"
+            android:text="User"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:padding="8dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPubDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitle"
+            android:layout_margin="5dp"
+            android:text="27-09-2018"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPubDate"
+            android:layout_margin="5dp"
+            android:text="Content"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/upvote"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_below="@+id/txtContent"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_marginStart="11dp"-->
+            <!--android:layout_marginTop="-1dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:src="@drawable/ic_news_upvote" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/removeNews"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_alignBottom="@+id/upvote"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginEnd="22dp"-->
+            <!--android:background="#FFFF"-->
+            <!--android:src="@drawable/ic_newsfeed_remove"-->
+            <!--android:visibility="gone" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/upvoteNumber"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_alignBottom="@+id/upvote"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_marginStart="44dp"-->
+            <!--android:layout_marginBottom="0dp"-->
+            <!--android:text="Upvotes" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/downvote"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_alignRight="@+id/upvoteNumber"-->
+            <!--android:layout_alignBottom="@+id/upvote"-->
+            <!--android:layout_marginRight="-55dp"-->
+            <!--android:layout_marginBottom="0dp"-->
+            <!--android:background="#fff"-->
+            <!--android:src="@drawable/ic_news_downvote" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/downvoteNumber"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_alignRight="@+id/downvote"-->
+            <!--android:layout_alignBottom="@+id/downvote"-->
+            <!--android:layout_marginRight="-22dp"-->
+            <!--android:layout_marginBottom="0dp"-->
+            <!--android:text="Downvotes" />-->
+
+        <TextView
+            android:id="@+id/postedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtContent"
+            android:text="Posted By: "
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/newsOwner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/postedBy"
+            android:layout_alignBottom="@+id/postedBy"
+            android:text="User"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

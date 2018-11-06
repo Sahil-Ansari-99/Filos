@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dd2c00</color>
+    <color name="colorPrimaryDark">#a30000</color>
+    <color name="colorAccent">#dd2c00</color>
+    <color name="buyandsellPrimary">#64dd17</color>
+    <color name="lostandfoundPrimary">#ffea00</color>
+
+</resources>

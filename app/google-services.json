@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "729706089120",
+    "firebase_url": "https://losead-1c6cc.firebaseio.com",
+    "project_id": "losead-1c6cc",
+    "storage_bucket": "losead-1c6cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729706089120:android:921a06ec1d9f7c41",
+        "android_client_info": {
+          "package_name": "com.example.sellfindread.losead"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729706089120-9uvrbk6j8rf6tgn5j1u8chgbihlf5fou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBor-c7yiccz9CugevJ0IYW4RJaP0Tn9Yw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/addNews"
+        android:title="Add Post"/>
+
+    <item android:id="@+id/nfPosts"
+          android:title="My Posts"/>
+
+    <item android:id="@+id/reportBug"
+        android:title="Report Bug"/>
+
+    <item android:id="@+id/userLogout"
+        android:title="Log Out" />
+
+</menu>
